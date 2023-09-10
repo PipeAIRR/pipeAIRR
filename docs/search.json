@@ -60,7 +60,7 @@
     "href": "tweak_and_run.html",
     "title": "4  How to Create a Run with tweak parametrs in DolphinNext?",
     "section": "",
-    "text": "1. Launch your dolphinnext docker\nOUTDIR=${replace_with_your_directory}\ndocker run --privileged -m 10G -p 8080:80 -v $OUTDIR:/export -ti ummsbiocore/dolphinnext-studio /bin/bash\n# inside the docker\nstartup\n2. Navigate to http://localhost:8080/dolphinnext/\n3. Choose your pipeline\n\n4. Click on “run” button\n\n5. Choose “Create New Run”\n\n6. Select a project\n\n7. Enter run name and click on “Save run” button\n\n8. Find the module of the parameter you want to change \n\n9. Change the no to yes and click on the settings button \n\n10. Enter the new parametrs for this module, the parametrs that appear is the default in the module (not in the pipeline)\n\n11. Click on “Ok” button\n\n12. Run the pipeline with the tweak parametrs"
+    "text": "1. Launch your dolphinnext docker\nOUTDIR=${replace_with_your_directory}\ndocker run --privileged -m 10G -p 8080:80 -v $OUTDIR:/export -ti ummsbiocore/dolphinnext-studio /bin/bash\n# inside the docker\nstartup\n2. Navigate to http://localhost:8080/dolphinnext/\n3. Choose your pipeline\n\n4. Click on “run” button\n\n5. Choose “Create New Run”\n\n6. Select a project or create a new one\n\n7. Enter run name and click on “Save run” button\n\n8. Find the module of the parameter you want to change \n\n9. Change the no to yes and click on the settings button \n\n10. Enter the new parametrs for this module, the parametrs that appear is the default in the module (not in the pipeline)\n\n11. Click on “Ok” button\n\n12. Run the pipeline with the tweak parametrs"
   },
   {
     "objectID": "hardcode_tweak_param.html",
@@ -74,7 +74,7 @@
     "href": "build_process.html",
     "title": "6  How to build a process in dolphinNext?",
     "section": "",
-    "text": "1. Launch your dolphinnext docker\nOUTDIR=${replace_with_your_directory}\ndocker run --privileged -m 10G -p 8080:80 -v $OUTDIR:/export -ti ummsbiocore/dolphinnext-studio /bin/bash\n# inside the docker\nstartup\n2. Navigate to http://localhost:8080/dolphinnext/\n3. Click on “Pipelines” tab\n\n4. Click on “New Process” button\n\n5. Enter input output params\n\n6. Write the script\n\n7. For more information go to\nhttps://dolphinnext.readthedocs.io/en/latest/dolphinNext/process.html"
+    "text": "1. Launch your dolphinnext docker\nOUTDIR=${replace_with_your_directory}\ndocker run --privileged -m 10G -p 8080:80 -v $OUTDIR:/export -ti ummsbiocore/dolphinnext-studio /bin/bash\n# inside the docker\nstartup\n2. Navigate to http://localhost:8080/dolphinnext/\n3. Click on “Pipelines” tab\n\n4. Click on “New Process” button\n\n5. Enter input output params\n\n6. Write the script\n #### Made with Scribe\n7. For more information go to\nhttps://dolphinnext.readthedocs.io/en/latest/dolphinNext/process.html"
   },
   {
     "objectID": "build_module.html",
@@ -102,7 +102,7 @@
     "href": "default_param.html",
     "title": "10  How to set pipeline default parameters and run environment?",
     "section": "",
-    "text": "1. Choose your pipeline\n\n2. Click on “Advanced” tab\n\n3. Go to “Pipeline Header Script” section \n\n4. First add for each process an option to change the parameters. To do that, the first step must be access the params variable, then the module name and finally the process name.\n\n5. Setting default parameters\nTo set the parameters of a process, the first step must be access the params variable, then the module name, the process name, and finally the parameter name.\n\n6. Setting run environment\nDifferent run environments can be set for various machines, with ”if and else” statement. The $HOSTNAME variable holds the machine name, where ’default’ is usually the local machine. To control the Docker or Singularity image, the $DOCKER_IMAGE variable or the $SINGULARITY_IMAGE variable needs to be allocated. Moreover, the Docker or Singularity properties can be defined also. Additionally, the configuration of machine properties specifically for remote machines also can be defined.\n\n7. Save the change\n\n8. Click on “Overwrite” to save"
+    "text": "1. Choose your pipeline\n\n2. Click on “Advanced” tab\n\n3. Go to “Pipeline Header Script” section \n\n4. First add for each process an option to change the parameters. To do that, the first step must be access the params variable, then the module name and finally the process name.\n\n5. Setting default parameters\nTo set the parameters of a process, the first step must be access the params variable, then the module name, the process name, and finally the parameter name.\n\n6. Setting run environment\nDifferent run environments can be set for various machines, with ”if and else” statement. The $HOSTNAME variable holds the machine name, where ’default’ is usually the local machine. To control the Docker or Singularity image, the $DOCKER_IMAGE variable or the $SINGULARITY_IMAGE variable needs to be allocated. Moreover, the Docker or Singularity properties can be defined also. Additionally, the configuration of machine properties specifically for remote machines also can be defined.\n\n7. save the changes"
   },
   {
     "objectID": "script_for_params.html",
