@@ -109,14 +109,14 @@
     "href": "script_for_params.html",
     "title": "11  Easy way to set pipeline default parameters",
     "section": "",
-    "text": "1. Downloads the R script from GitHub:\nhttps://github.com/PipeAIRR/params_dolphinnext\n2. Create a csv file of pipeline parameters\nCreate a csv file that contain a table that each row is a parameter you want to defined.\nThe table columns: - module - the module name - process - the process name - parameter - the parameter name - value - the parameter value\n3. Run the script from the command line:\nRscript params_dolphinnext.R csv_file.csv\n4. Copy output \nCopy the text from the file.txt that created to the “Pipeline Header Script” in the “Advanced” tab of the pipeline."
+    "text": "1. download the “params_dolphinnext.R” script from GitHub:\nhttps://github.com/PipeAIRR/params_dolphinnext\n2. Create a csv file of pipeline parameters\nCreate a csv file that contain a table that each row is a parameter you want to defined.\nThe table columns: - module - the module name - process - the process name - parameter - the parameter name - value - the parameter value\n3. Run the script from the command line:\nRscript params_dolphinnext.R csv_file.csv\n4. Copy output \nCopy the text from the file.txt that created to the “Pipeline Header Script” in the “Advanced” tab of the pipeline."
   },
   {
     "objectID": "two_dockers.html",
     "href": "two_dockers.html",
-    "title": "12  Is it possible to run a pipeline with 2 dockers?",
+    "title": "12  Is it possible to run a pipeline with two different containers?",
     "section": "",
-    "text": "1. Choose your pipeline\n\n2. show “Workflow”\n\n3. This process need to run on a “milaboratory/mixcr:latest” docker image\n\n4. This process need to run on a “ssnnm/mhecd4tcr:0.1.0” docker image\n\n5. Click on “Advanced” tab\n\n6. How to define the containers:\nThe docker images needed to defined on the the nextflow.config file as a new process contains “container=” the main docker image and for each process that needed to run with different docker write “WithName:” the process name and in {} “container=” the image docker for this step."
+    "text": "TLDR; yes you can! Just follow the steps below to configure the containers.\nIf you searched this question, it means you encountered the same problem we did, where we have modules or processes that require the use of different containers to perform the task. Nextflow allows you to configure a container for each process with a simple code for more info see. The steps below detail the process of configuring the containers and the processes they are intended for in the nextflow.config file as you can configure in dolphinNext.\n1. Choose your pipeline\n\n2. show “Workflow”\n\n3. This process need to run on a “milaboratory/mixcr:latest” docker image\n\n4. This process need to run on a “ssnnm/mhecd4tcr:0.1.0” docker image\n\n5. Click on “Advanced” tab\n\n6. How to define the containers:\nThe docker images needed to defined on the the nextflow.config file as a new process contains “container=” the main docker image and for each process that needed to run with different docker write “WithName:” the process name and in {} “container=” the image docker for this step."
   },
   {
     "objectID": "pipeline_header_script.html",
