@@ -1,5 +1,5 @@
 ---
-title: 'Is it possible to run a pipeline with 2 dockers?'
+title: 'Is it possible to run a pipeline with two different containers?'
 suptitle: 'Example for how to run a pipeline  with 2 docker'
 execute:
   echo: false
@@ -7,6 +7,10 @@ execute:
   message: false
 format: html
 ---
+
+TLDR; yes you can! Just follow the steps below to configure the containers.
+
+If you searched this question, it means you encountered the same problem we did, where we have modules or processes that require the use of different containers to perform the task. Nextflow allows you to configure a container for each process with a simple code [for more info see](https://www.nextflow.io/docs/latest/docker.html).  The steps below detail the process of configuring the containers and the processes they are intended for in the nextflow.config file as you can configure in dolphinNext.
 
 **1. Choose your pipeline**
 
@@ -32,4 +36,5 @@ format: html
 
 The docker images needed to defined on the the nextflow.config file as a new process contains "container=" the main docker image and for each process that needed to run with different docker write "WithName:" the process name and in {} "container=" the image docker for this step.
 
-![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2023-08-13/765388e0-bcde-4839-a261-877786fdf3d8/user_cropped_screenshot.jpeg?tl_px=0,227&br_px=859,708&force_format=png&width=560.0&wat_scale=50&wat=1&wat_opacity=0.7&wat_gravity=northwest&wat_url=https://colony-recorder.s3.us-west-1.amazonaws.com/images/watermarks/FB923C_standard.png&wat_pad=110,138)
+![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2023-09-11/f84bef3a-d84b-4fc5-9631-9830b202567b/user_cropped_screenshot.jpeg?tl_px=0,0&br_px=1200,776&force_format=png&width=774)
+

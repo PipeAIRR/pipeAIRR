@@ -7,7 +7,7 @@ execute:
 format: html
 ---
 
-**1. Downloads the R script from GitHub:**
+**1. download the "params_dolphinnext.R" script from GitHub:**
 
 ```bash
 https://github.com/PipeAIRR/params_dolphinnext
