@@ -2,62 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://PipeAIRR.github.io/pipeAIRR/index.html</loc>
-    <lastmod>2023-09-12T13:02:53.102Z</lastmod>
+    <lastmod>2023-09-14T17:05:33.426Z</lastmod>
   </url>
   <url>
     <loc>https://PipeAIRR.github.io/pipeAIRR/local_dolphinnext.html</loc>
-    <lastmod>2023-09-12T13:02:53.109Z</lastmod>
+    <lastmod>2023-09-14T17:05:33.434Z</lastmod>
   </url>
   <url>
     <loc>https://PipeAIRR.github.io/pipeAIRR/import_pipeline.html</loc>
-    <lastmod>2023-09-12T13:02:53.115Z</lastmod>
+    <lastmod>2023-09-14T17:05:33.442Z</lastmod>
   </url>
   <url>
     <loc>https://PipeAIRR.github.io/pipeAIRR/run_pipeline.html</loc>
-    <lastmod>2023-09-12T13:02:53.123Z</lastmod>
+    <lastmod>2023-09-14T17:05:33.450Z</lastmod>
   </url>
   <url>
     <loc>https://PipeAIRR.github.io/pipeAIRR/tweak_and_run.html</loc>
-    <lastmod>2023-09-12T13:04:49.534Z</lastmod>
+    <lastmod>2023-09-14T17:05:33.462Z</lastmod>
   </url>
   <url>
     <loc>https://PipeAIRR.github.io/pipeAIRR/hardcode_tweak_param.html</loc>
-    <lastmod>2023-09-12T13:02:53.140Z</lastmod>
+    <lastmod>2023-09-14T17:05:33.470Z</lastmod>
   </url>
   <url>
     <loc>https://PipeAIRR.github.io/pipeAIRR/build_process.html</loc>
-    <lastmod>2023-09-12T13:02:53.146Z</lastmod>
+    <lastmod>2023-09-14T17:05:33.478Z</lastmod>
   </url>
   <url>
     <loc>https://PipeAIRR.github.io/pipeAIRR/build_module.html</loc>
-    <lastmod>2023-09-12T13:02:53.152Z</lastmod>
+    <lastmod>2023-09-14T17:05:33.486Z</lastmod>
   </url>
   <url>
     <loc>https://PipeAIRR.github.io/pipeAIRR/build_pipeline.html</loc>
-    <lastmod>2023-09-12T13:02:53.158Z</lastmod>
+    <lastmod>2023-09-14T17:05:33.490Z</lastmod>
   </url>
   <url>
     <loc>https://PipeAIRR.github.io/pipeAIRR/export_a_pipeline.html</loc>
-    <lastmod>2023-09-12T13:02:53.164Z</lastmod>
+    <lastmod>2023-09-14T17:05:33.498Z</lastmod>
   </url>
   <url>
     <loc>https://PipeAIRR.github.io/pipeAIRR/default_param.html</loc>
-    <lastmod>2023-09-12T13:02:53.175Z</lastmod>
+    <lastmod>2023-09-14T17:05:33.506Z</lastmod>
   </url>
   <url>
     <loc>https://PipeAIRR.github.io/pipeAIRR/script_for_params.html</loc>
-    <lastmod>2023-09-12T13:02:53.181Z</lastmod>
+    <lastmod>2023-09-14T17:05:33.514Z</lastmod>
   </url>
   <url>
     <loc>https://PipeAIRR.github.io/pipeAIRR/two_dockers.html</loc>
-    <lastmod>2023-09-12T13:02:53.187Z</lastmod>
-  </url>
-  <url>
-    <loc>https://PipeAIRR.github.io/pipeAIRR/pipeline_header_script.html</loc>
-    <lastmod>2023-09-12T13:02:53.192Z</lastmod>
-  </url>
-  <url>
-    <loc>https://PipeAIRR.github.io/pipeAIRR/documentation.html</loc>
-    <lastmod>2023-09-12T13:02:53.198Z</lastmod>
+    <lastmod>2023-09-14T17:05:33.526Z</lastmod>
   </url>
 </urlset>
