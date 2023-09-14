@@ -47,7 +47,7 @@ The pipeplines were build based on the [immcantation](https://immcantation.readt
 | RP7 | Raw  sequences                 | 2X125 CD4                    | -  | [8]       | [pipeAIRR/RP7](https://github.com/pipeAIRR/RP7)  |
 
 
-## Annotating analysis pipelines: AIRR-seq analyses workflows
+## AIRR-seq analyses workflows
 
 In this section you can find pipelines to analyze processed reads and infer genotype and haplotype.
 The pipelines were build based on the [Yaari lab framework](https://hub.docker.com/repository/docker/peresay/suite), that contains tools from:

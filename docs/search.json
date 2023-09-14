@@ -28,11 +28,11 @@
     "text": "Pre-processing: From raw FASTQ files to AIR-seq annotation ready\nIn this section you can find pipelines to process the sequencer output files, meaning from ‘raw reads’ into an aligner ready fasta file.\nThe pipeplines were build based on the immcantation framework and spesificly the pRESTO tool suite.\n\nAvailable pipelines:\n\n\n\nPipeline\nInput data\nSequencing protocol\nUMI\nPublished paper(s)\nGitHub Archive\n\n\n\n\nRP1\nRaw sequences\n2X250\n+\n[11]\npipeAIRR/RP1\n\n\nRP2\nRaw sequences\n2X250\n-\n[4]\npipeAIRR/RP2\n\n\nRP3\nRaw sequences\n5’ RACE\n+\n[3], [1]\npipeAIRR/RP3\n\n\nRP4\nRaw sequences\n2X300\n+\n[2]\npipeAIRR/RP4\n\n\nRP5\nRaw sequences\n5’ RACE\n+\n[9]\npipeAIRR/RP5A,pipeAIRR/RP5B\n\n\nRP6\nRaw sequences\nRoche 454\n-\n[5]\npipeAIRR/RP6\n\n\nRP7\nRaw sequences\n2X125 CD4\n-\n[8]\npipeAIRR/RP7"
   },
   {
-    "objectID": "index.html#annotating-analysis-pipelines-airr-seq-analyses-workflows",
-    "href": "index.html#annotating-analysis-pipelines-airr-seq-analyses-workflows",
+    "objectID": "index.html#airr-seq-analyses-workflows",
+    "href": "index.html#airr-seq-analyses-workflows",
     "title": "pipeAIRR - Github repository for Adaptive immune receptor repertoire pipelines",
-    "section": "Annotating analysis pipelines: AIRR-seq analyses workflows",
-    "text": "Annotating analysis pipelines: AIRR-seq analyses workflows\nIn this section you can find pipelines to analyze processed reads and infer genotype and haplotype. The pipelines were build based on the Yaari lab framework, that contains tools from: - immcantaton - VDJbase - TIgGER - RAbHIT - PIgLET\n\nAvailable pipelines:\n\n\n\nPipeline\nInput data\nSequencing protocol\nUMI\nPublished paper(s)\nGitHub Archive\n\n\n\n\nPP1\nProcessed sequences\n-\n-\n[10]\npipeAIRR/PP1\n\n\nPP2\nProcessed sequences\n-\n-\n[6]\npipeAIRR/PP2\n\n\nPP3\nProcessed sequences\n-\n-\n[7]\npipeAIRR/PP3"
+    "section": "AIRR-seq analyses workflows",
+    "text": "AIRR-seq analyses workflows\nIn this section you can find pipelines to analyze processed reads and infer genotype and haplotype. The pipelines were build based on the Yaari lab framework, that contains tools from: - immcantaton - VDJbase - TIgGER - RAbHIT - PIgLET\n\nAvailable pipelines:\n\n\n\nPipeline\nInput data\nSequencing protocol\nUMI\nPublished paper(s)\nGitHub Archive\n\n\n\n\nPP1\nProcessed sequences\n-\n-\n[10]\npipeAIRR/PP1\n\n\nPP2\nProcessed sequences\n-\n-\n[6]\npipeAIRR/PP2\n\n\nPP3\nProcessed sequences\n-\n-\n[7]\npipeAIRR/PP3"
   },
   {
     "objectID": "index.html#citations",
