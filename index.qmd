@@ -8,7 +8,7 @@ date: "`r Sys.Date()`"
 
 pipeAIRR is a community resource for adaptive immune receptore repertoire sequencing (AIRR-seq) processing pipelines.
 
-The pipelines are implemented with [DolphinNext](https://dolphinnext.readthedocs.io/en/latest/index.html#).
+The pipelines are implemented with [ViaFoundry](https://viascientific.github.io/vfdocs/).
 
 We have divided the pipelines into two main sections:
 
@@ -17,7 +17,7 @@ We have divided the pipelines into two main sections:
 
 ##  Repository layout
 
-For each pipeline you can find a directory containing the dolphinnext pipeline (main.dn) as well as the configurations and the nextflow script (main.nf)
+For each pipeline you can find a directory containing the ViaFoundry pipeline (main.dn) as well as the configurations and the nextflow script (main.nf)
 
 
 ## Pre-processing

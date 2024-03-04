@@ -7,6 +7,10 @@ execute:
 format: html
 ---
 
+
+Follow these recommends format for documenting pipelines with clarity and efficiency.
+
+```bash
 A pipeline for {short summary} that was produced in the same fashion as those in {paper}.
 
 **Library preparation and sequencing method:**
@@ -65,4 +69,5 @@ A pipeline for {short summary} that was produced in the same fashion as those in
   .
   
   .
+```
 

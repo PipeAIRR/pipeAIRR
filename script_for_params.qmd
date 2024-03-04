@@ -7,10 +7,12 @@ execute:
 format: html
 ---
 
-**1. Download the "params_dolphinnext.R" script from GitHub**
+Follow these steps to set default parameters for the pipeline:
+
+**1. Download the "params_viafoundry.R" script from GitHub**
 
 ```bash
-https://github.com/PipeAIRR/params_dolphinnext
+https://github.com/pipeAIRR/params_viafoundry
 ```
 
 **2. Create a csv file of pipeline parameters**

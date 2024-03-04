@@ -6,7 +6,7 @@ project:
     browser: true
 
 book:
-  title: "pipeAIRR - Github repository for Adaptive immune receptor repertoire DolphinNext pipelines"
+  title: "pipeAIRR - Github repository for Adaptive immune receptor repertoire ViaFoundry pipelines"
   #contact: "gur.yaari@biu.ac.il"
   sidebar:
     style: docked
@@ -21,32 +21,13 @@ book:
   page-footer: Content on this site is licensed under [CC BY-NC-ND, 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
   chapters:
     - index.qmd
-    - part: "How to set up a local dolphinnext instance?"
-      chapters:
-       - local_dolphinnext.qmd
-    - part: "Importing existing pipelines and running analysis"
-      chapters:
-        - import_pipeline.qmd
-        - run_pipeline.qmd
-    - part: "Tweaking existing pipeline parameters"
-      chapters:
-        - tweak_and_run.qmd
-        - hardcode_tweak_param.qmd
-    - part: "Building analysis pipeline"
-      chapters: 
-        - build_process.qmd
-        - build_module.qmd
-        - build_pipeline.qmd
-        - export_a_pipeline.qmd
-    - part: "Setting default pipeline parameters and run environment"
-      chapters: 
-        - default_param.qmd
-        - script_for_params.qmd
-        - two_dockers.qmd
-    - part: "Other topic"
-      chapters: 
-        - pipeline_header_script.qmd
-        - documentation.qmd
+    - frequency_question.qmd
+    - Run_pipeline_nf.qmd
+    - script_for_params.qmd
+    - tweak_param.qmd
+    - documentation.qmd
+    - zenodo.qmd
+
     
 comments:
   giscus:
